@@ -5,28 +5,72 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>プライバシーポリシー</title>
   <style>
+    :root {
+      color-scheme: light dark;
+    }
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", sans-serif;
-      padding: 2rem;
-      line-height: 1.6;
-      background-color: #ffffff;
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Roboto, sans-serif;
+      margin: 0;
+      padding: 4rem 1.5rem;
+      max-width: 720px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.75;
+      font-size: 17px;
+      color: #1c1c1e;
+      background-color: #fefefe;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #1c1c1e;
+        color: #fefefe;
+      }
+    }
+
+    h1 {
+      font-size: 26px;
+      font-weight: 600;
+      margin-bottom: 2rem;
+      color: #0055aa;
+      border-left: 4px solid #0055aa;
+      padding-left: 0.8rem;
+    }
+
+    h2 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-top: 2.5rem;
+      margin-bottom: 0.5rem;
       color: #333;
     }
-    h1 {
-      color: #222;
-      font-size: 1.6rem;
+
+    p {
+      margin-bottom: 1.5rem;
     }
-    h2 {
-      color: #222;
-      font-size: 1.1rem; /* ← サイズを調整 */
-      margin-top: 2rem;
+
+    ul {
+      padding-left: 1.5rem;
+      margin-bottom: 1.5rem;
     }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
     a {
-      color: #007AFF;
+      color: #007aff;
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 14px;
+      color: #666;
     }
   </style>
 </head>
@@ -61,7 +105,7 @@
 
   <h2>第7条（お問い合わせ窓口）</h2>
   <p>本ポリシーに関するお問い合わせは、下記の窓口までお願いいたします。</p>
-  <p>連絡先メールアドレス: support@example.com</p>
+  <p>連絡先メールアドレス：<a href="mailto:onton.dev@gmail.com">onton.dev@gmail.com</a></p>
 
   <p>制定日：2025年6月9日</p>
 </body>
