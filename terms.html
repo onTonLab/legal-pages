@@ -22,13 +22,29 @@
       background-color: #fefefe;
     }
 
-    @media (prefers-color-scheme: dark) {
-      body {
-        background-color: #1c1c1e;
-        color: #fefefe;
-      }
-    }
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1c1c1e;
+    color: #fefefe;
+  }
 
+  h2 {
+    color: #dddddd; /* ここで見出し色を明示的にダーク対応 */
+  }
+
+  h1 {
+    color: #66aaff; /* トップタイトルも明るめのブルー系に調整しても可 */
+    border-left-color: #66aaff;
+  }
+
+  a {
+    color: #72b9ff;
+  }
+
+  footer {
+    color: #999;
+  }
+}
     h1 {
       font-size: 24px;
       font-weight: 600;
